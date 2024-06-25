@@ -1,0 +1,31 @@
+create database restaurantXIIG;
+
+use restaurantXIIG;
+
+create table item
+(
+    itemno int(3) primary key,
+    itemname varchar(40),
+    rate int(5)
+);
+
+create table bill
+(
+    billno int(3),
+    billdate date,
+    name varchar(40),
+    itemname varchar(40),
+    qty int(3),
+    rate int(5),
+    amt int(6)
+);
+
+
+
+
+
+
+
+
+
+
